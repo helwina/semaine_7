@@ -1,0 +1,74 @@
+/*-----------------------*\
+            base
+\*-----------------------*/
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*-----------------------*\
+        social-navbar
+\*-----------------------*/
+.social-navbar {
+    text-align: center;
+}
+
+.social-navbar .fa{
+    height: 55px;
+    width: 55px;
+    float: right;
+    line-height: 1.5em;
+    font-size: 40px;
+}
+
+.social-navbar ul li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.social-navbar-link{
+    display: inline-block;
+    margin-top: 10px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    background: black;
+    font-size: 0;
+    font-weight: 400;
+    color: white; 
+}
+
+.fa {
+    color:white;
+    transition-duration: 0.9s;
+}
+
+/*-----------------------*\
+    social-navbar hover
+\*-----------------------*/
+
+.fa:hover {
+    transition-duration: 0.9s;    
+}
+
+.fa-twitter:hover{
+    background: #0084b4;
+}
+
+.fa-github:hover{
+    background: #4078c0;
+}
+
+.fa-linkedin:hover{
+    background: #287bbc;
+}
+
+.fa-codepen:hover {
+    background: #4b4242;
+}
