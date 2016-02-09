@@ -258,3 +258,7 @@ iframe{
 .clear {
   clear: both;
 }
+
+.center {
+    text-align: center;
+}

@@ -41,7 +41,7 @@ ul li {
     background: black;
     font-size: 0;
     font-weight: 400;
-    color: white; 
+    color: white;
 }
 
 .fa {
@@ -54,7 +54,7 @@ ul li {
 \*-----------------------*/
 
 .fa:hover {
-    transition-duration: 0.9s;    
+    transition-duration: 0.9s;
 }
 
 .fa-twitter:hover{
