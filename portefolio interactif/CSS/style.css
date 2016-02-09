@@ -40,14 +40,14 @@ ul li{
     color:white;
 }
 
-.container { 
-    position: relative; 
-    width: 960px; 
-    margin: 0 auto; 
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
     -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
-  transition: all 1s ease;  
+  transition: all 1s ease;
 }
 
 /*------------------------------------*\
@@ -73,7 +73,7 @@ header .image img{
 }
 
 /*------------------------------------*\
-                filter
+                footer
 \*------------------------------------*/
 
 footer{
@@ -111,7 +111,7 @@ iframe{
 
 #filters li span {
     display: block;
-    padding:5px 20px;       
+    padding:5px 20px;
     text-decoration:none;
     color:#666;
     cursor: pointer;
@@ -121,11 +121,11 @@ iframe{
     background: #e95a44;
     color:#fff;
 }
- 
+
 /*------------------------------------*\
             portfolio
 \*------------------------------------*/
- 
+
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -178,6 +178,20 @@ iframe{
     margin-top: 5px;
 }
 
+.text-title {
+    color: black;
+}
+
+.text-title:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.text-title:focus {
+    text-decoration: none;
+    color: black;
+}
+
 /*------------------------------------*\
             media query
 \*------------------------------------*/
@@ -186,25 +200,25 @@ iframe{
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
-        width: 768px; 
+        width: 768px;
     }
 }
 
 /*  Mobile  'portrait)*/
 
 @media only screen and (max-width: 767px) {
-    .container { 
-        width: 95%; 
+    .container {
+        width: 95%;
     }
-    
+
     #portfoliolist .portfolio {
         width:48%;
         margin:1%;
-    }       
+    }
 
     #ads {
         display:none;
-    }  
+    }
 }
 
 /* Mobile (Landscape)  */
@@ -213,10 +227,10 @@ iframe{
     .container {
         width: 70%;
     }
-    
+
     #ads {
         display:none;
-    } 
+    }
 }
 /*------------------------------------*\
                 clear
