@@ -49,6 +49,9 @@ ul li {
     transition-duration: 0.9s;
 }
 
+.footer-contact {
+    text-align: center;
+}
 /*-----------------------*\
     social-navbar hover
 \*-----------------------*/
